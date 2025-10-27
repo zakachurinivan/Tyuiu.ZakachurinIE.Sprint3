@@ -12,7 +12,7 @@ namespace Tyuiu.ZakachurinIE.Sprint3.Task6.V14.Lib
             {
                 for (int d = 1; d <= x; d++)
                 {
-                    if ((x % d == 0) && (d >= 5))
+                    if ((x % d == 0) && (d > 5))
                     {
                         sum += 1;
                     }
